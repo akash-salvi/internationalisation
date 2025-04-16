@@ -1,0 +1,1 @@
+/*eslint-disable*/export const messages=JSON.parse("{\"UNWX+z\":[\"Click on the Vite and React logos to learn more\"],\"q1tg53\":[\"count is \",[\"count\"]],\"H58qVu\":[\"Edit <0>src/App.jsx</0> and save to test HMR \"],\"s0Fxbi\":[\"React logo\"],\"VfMG6s\":[\"Vite + React\"],\"3/thn7\":[\"Vite logo\"]}");
