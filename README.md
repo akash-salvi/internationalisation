@@ -1,12 +1,12 @@
-# React + Vite
+### Steps to run
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Clone the repo
+2. Move inside the cloned repo `cd internationalisation`
+3. Run `npm install` to install all dependency
+4. Run `npm run dev` to run the app
 
-Currently, two official plugins are available:
+### Lingui Check
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Use lingui macros and add translation to the codebase
+2. Run `npx lingui extract` to extract the new macro details to all locale files
+3. Run `npx lingui compile` to generate a compiled file for all lingui po files (Facing issue with `catalogsMergePath` config)
